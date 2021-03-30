@@ -5,4 +5,4 @@ With the dynamic development of electric vehicles, new challenges arise regardin
 This code shows how quantum algorithms can be used in order to tackle the difficult problems related to this field. Two different types of scheduling are respectively mapped to UD-MIS and Max-k-cut problems on graphs. We then make use of a quantum algorithm in order to find approximate solutions to these NP-hard problems. 
 
 
-The output data used for the figures can be found at `https://figshare.com/account/home#/projects/101369`.
+The output data used for the figures can be found at <https://figshare.com/account/home#/projects/101369> !
