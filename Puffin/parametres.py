@@ -5,15 +5,15 @@ def init(experiment, layers=6, n=False):
 
     if experiment == "MIS":
         problem = "MIS"
-        data_string = "puffin_data/MIS_data/MIS_data_"
+        data_string = "Puffin/puffin_data/MIS_data/MIS_data_"
         result_string = "MIS_results/MIS_result_"
     elif experiment == "MKC_P":
         problem = "MKC"
-        data_string = "puffin_data/MKC_data/MKC_data_Poisson_"
+        data_string = "Puffin/puffin_data/MKC_data/MKC_data_Poisson_"
         result_string = "MKC_results/MKC_Poisson_result_"
     elif experiment == "MKC_U":
         problem = "MKC"
-        data_string = "puffin_data/MKC_data/MKC_data_Unif_"
+        data_string = "Puffin/puffin_data/MKC_data/MKC_data_Unif_"
         result_string = "MKC_results/MKC_Unif_result_"
     else:
         raise ValueError("experiment must be of the form MIS, MKC_P or MKC_U")
@@ -38,3 +38,5 @@ def init(experiment, layers=6, n=False):
 
     global distance  # Below a given distance, vertices are connected
     distance = 10
+
+    print(problem)

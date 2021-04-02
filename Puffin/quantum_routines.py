@@ -6,7 +6,7 @@ import qutip
 from scipy.optimize import differential_evolution
 from scipy.sparse import coo_matrix, csc_matrix, csr_matrix
 
-import parametres
+import Puffin.parametres as parametres
 
 
 def quantum_loop(psi, H_0, H_c, param):

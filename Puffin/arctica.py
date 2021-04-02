@@ -1,5 +1,5 @@
-import quantum_routines as qr
-import parametres
+import Puffin.quantum_routines as qr
+import Puffin.parametres as parametres
 
 import numpy as np
 import json
@@ -16,6 +16,7 @@ def main(x):
         main_MIS()
     elif parametres.problem == 'MKC':
         main_MKC()
+    print(parametres)
 
 
 def main_MKC():
